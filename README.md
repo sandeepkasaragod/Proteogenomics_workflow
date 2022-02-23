@@ -22,7 +22,6 @@ The workflow requires Annotated variant results from the ANNOVAR tool. In case t
 PeptigeGroups from the Proteome Discoverer tools will be the input from the proteomics end. 
 
 ## Setup
-Run the below command to create conda environment and activate the environment
 	- conda env create --file environment.yml
 	- conda activate proteogenomics_workflow
 
