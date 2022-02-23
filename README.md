@@ -22,6 +22,7 @@ The workflow requires Annotated variant results from the ANNOVAR tool. In case t
 PeptigeGroups from the Proteome Discoverer. For more clarification refere the test datasets. 
 
 ## Setup
+Install necessary packages and create the conda envirinment by running the envirinment.yml
 	- conda env create --file environment.yml
 	- conda activate proteogenomics_workflow
 
