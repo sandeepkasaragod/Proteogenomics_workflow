@@ -19,10 +19,14 @@ In case of any problem in running netMHCPan4.1 (neoantigen prediction), the foll
 The workflow requires Annotated variant results from the ANNOVAR tool. In case the user has raw NGS data, then the user can run CusVarDB tool to generate the variants (this includes a complete genomics pipeline to generate annotated VCF results)
 
 ### Proteomics
-PeptigeGroups from the Proteome Discoverer tools will be the input from the proteomics end. 
+PeptigeGroups from the Proteome Discoverer. For more clarification refere the test datasets. 
 
 ## Setup
 	- conda env create --file environment.yml
 	- conda activate proteogenomics_workflow
 
+## Workflow execution
+Inside the workflow directory activate the proteogenomics_workflow conda environment and run the below command. Set the cores according to the system capacity. 
+
+	- snakemake --cores 10
 
