@@ -23,6 +23,7 @@ PeptigeGroups from the Proteome Discoverer. For more clarification refere the te
 
 ## Setup
 Install necessary packages and create the conda envirinment by running the envirinment.yml
+
 	- conda env create --file environment.yml
 	- conda activate proteogenomics_workflow
 
