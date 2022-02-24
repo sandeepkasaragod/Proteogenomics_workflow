@@ -1,0 +1,23 @@
+input_dir_proteomics: data/proteomics
+input_dir_genomics: data/genomics
+output_dir: results/
+sample_name: sample_names.txt
+separator: tsv
+proteomics_header_file: p_header.txt
+genomics_header_file: g_header.txt
+db: db/HsRefSeq93_GCF_000001405.38_GRCh38.p12.fasta
+filter_col: step1/
+separate_variant_normal: step2/
+pep_with_variant_info: step3/
+merge_files: step4/
+enricher: enrichment
+prep_for_neoantigen_prediction: prepare_fasta_files_for_neoantigen_prediction
+raw_neoantigen: raw_neoantigens
+neoantigen: neoantigen #final output where the neoantigen peptides are stored
+
+#parameters
+pep_len_netmhc: 8,9,10,11,12,13,14,15 #peptide lenght for neoantigen prediction
+
+#tool path
+netmhc_path: /mnt/d/netMHCpan-4.1
+

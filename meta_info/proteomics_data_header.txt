@@ -1,0 +1,32 @@
+Checked
+Confidence
+PSM Ambiguity
+Sequence
+Modifications
+Qvality PEP
+Qvality q-value
+SVM_Score
+# Protein Groups
+# Proteins
+# PSMs
+Master Protein Accessions
+Master Protein Descriptions
+Protein Accessions
+# Missed Cleavages
+Theo. MH+ [Da]
+Sequence Length
+Confidence (by Search Engine): Sequest HT
+Charge (by Search Engine): Sequest HT
+DeltaScore (by Search Engine): Sequest HT
+DeltaCn (by Search Engine): Sequest HT
+Rank (by Search Engine): Sequest HT
+Search Engine Rank (by Search Engine): Sequest HT
+Concatenated Rank (by Search Engine): Sequest HT
+m/z [Da] (by Search Engine): Sequest HT
+DeltaM [ppm] (by Search Engine): Sequest HT
+Deltam/z [Da] (by Search Engine): Sequest HT
+RT [min] (by Search Engine): Sequest HT
+Percolator q-Value (by Search Engine): Sequest HT
+Percolator PEP (by Search Engine): Sequest HT
+Percolator SVMScore (by Search Engine): Sequest HT
+XCorr (by Search Engine): Sequest HT
