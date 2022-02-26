@@ -37,7 +37,7 @@ data_DEX <- rbind(DEX_CC,DEX_MF,DEX_BP)
 ggplot(data_DEX, aes(term,-log(p_value),label=description))+
   geom_point(aes(color = category, size = log(number_of_genes), alpha=0.5)) +
   scale_color_manual(values = c("#00AFBB", "#E7B800", "darkslateblue", "blueviolet", "chartreuse", "violetred1"),#, "navyblue", "hotpink4", "salmon", "mediumaquamarine"),
-                     labels=c("CC","MF","BP")) + #,"Crotonylation","Glutarylation","Glycosylation","Hex","Malonylation","Methylation","Phosphorylation")) +
+                     labels=c("CC","MF","BP")) +
   scale_size(range = c(0.5, 12))+
   facet_wrap(~category,  ncol = 3, scales = "fixed") +
   geom_text_repel(data=subset(data_DEX, -log(p_value) > 10),aes(term,-log(p_value),label=description), size=4)+
